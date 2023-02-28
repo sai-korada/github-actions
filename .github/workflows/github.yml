@@ -1,0 +1,10 @@
+name: github-actions
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print start
+        run: echo "start of the pipeline"
+      - name: print end
+        run: echo "end of the pipeline"
